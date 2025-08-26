@@ -1,6 +1,9 @@
+import argparse
+import sys
 import streamlit as st
 import pandas as pd
-import xgboost==1.7.6 as xgb
+import xgboost as xgb
+
 
 # -------------------------
 # Load model
