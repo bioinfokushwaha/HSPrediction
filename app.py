@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import xgboost as xgb
+import xgboost==1.7.6 as xgb
 
 # -------------------------
 # Load model
